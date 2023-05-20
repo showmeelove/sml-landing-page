@@ -15,7 +15,9 @@ const App = () => {
             <li>
               <a href="#">faqs</a>
             </li>
-            <button className="bg-" >get early access</button>
+            <button className="bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
+              get early access
+            </button>
           </ul>
         </nav>
       </div>
