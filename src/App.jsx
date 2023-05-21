@@ -2,10 +2,10 @@ import Form from "./components/form";
 
 const App = () => {
   return (
-    <div className="mx-auto container">
+    <div className="mx-auto">
       <div className="hero-pattern"></div>
       <div className="gradient"></div>
-      <div className="mt-[66.5px] mx-[100px] m-auto flex justify-between items-center">
+      <div className="mt-[50.5px] mx-[100px] m-auto flex justify-between items-center">
         <h1 className="text-[#FEFEFE] font-Eina01Bold text-[26px] leading-[30.47px] ">
           showmeelove.
         </h1>

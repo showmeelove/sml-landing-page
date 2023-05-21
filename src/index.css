@@ -13,6 +13,7 @@
 body{
   background-color:#010E21 ;
   color: #fefefe;
+  overflow-x: hidden;
 }
 
 .gradient{
