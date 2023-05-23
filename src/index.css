@@ -6,12 +6,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 2px solid red; */
+  /* outline: 2px solid red;   */
 }
 
 
 body{
-  background-color:#010E21 ;
+  background-color:#010E21;
   color: #fefefe;
   overflow-x: hidden;
   /* filter: blur(10px); */
@@ -55,4 +55,19 @@ z-index: -1;
 @font-face {
   font-family: figtree;
   src: url("./assets/fonts/figtree/Figtree-Regular.ttf") format("truetype");
+}
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-700%);
+    }
+}
+
+.animate-alternate {
+  animation: move infinite alternate;
+  animation-duration: 15s;
 }
