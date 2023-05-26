@@ -1,5 +1,5 @@
-import Form from "./components/hero/form";
-import Memoji from "./components/hero/memojis";
+import Form from "./components/mail/form";
+import Memoji from "./components/mail/memojis";
 import Features from "./components/features/features";
 import Faqs from "./components/faqs/faqs";
 import Footer from "./components/footer/footer";
