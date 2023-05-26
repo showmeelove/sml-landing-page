@@ -23,14 +23,14 @@ const FAQ = () => {
 				alt='memoji'
 				width={80}
 				height={80}
-				className='sm:block absolute top-2 left-28 hidden'
+				className='sm:block absolute bottom-[50.5px] left-[100px] hidden'
 			/>
 			<img
 				src='src/assets/images/faqmemeoji2.png'
 				alt='memoji'
 				width={80}
 				height={80}
-				className='sm:block hidden absolute bottom-2 right-28'
+				className='sm:block hidden absolute bottom-[509px] right-[99.65px] '
 			/>
 			<div className='flex sm:hidden justify-between  w-[50%] mx-auto mb-2 '>
 				<img
@@ -49,7 +49,7 @@ const FAQ = () => {
 				/>
 			</div>
 
-			<h2 className='text-center text-[26px] sm:text-[48px] leading-[55px] text-[#001534] font-Eina01Bold font-bold mb-[2rem]'>
+			<h2 className='text-center text-[26px] md:text-[48px] mt-[108px] md:leading-[55px] text-[#001534] font-Eina01Bold font-bold mb-[3.9rem]'>
 				frequently asked questions
 			</h2>
 			<div className='flex flex-col items-center justify-center mx-auto'>

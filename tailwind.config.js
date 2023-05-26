@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         Eina01Bold: ["Eina01-Bold", "sans-serif"],
+        EinasemiBold: ["EinasemiBold", "sans-serif"],
         figtree: ["Figtree", "sans-serif"],
       },
     },

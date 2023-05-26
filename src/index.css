@@ -2,34 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* outline: 2px solid red;   */
 }
 
-
-body{
-  background-color:#010E21;
+body {
+  background-color: #010e21;
   color: #fefefe;
   overflow-x: hidden;
   /* filter: blur(10px); */
 }
 
-.gradient{
-position: absolute;
-width: 100%;
-height: 100%;
-left: calc(50% - 861px/2 - 117.5px);
-top: calc(50% - 861px/2 + 166.5px);
-background: rgba(24, 100, 255, 0.35);
-/* opacity: 0.5; */
-filter: blur(200px);
-transform: rotate(-19.25deg);
-z-index: -1;
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: calc(50% - 861px / 2 - 117.5px);
+  top: calc(50% - 861px / 2 + 166.5px);
+  background: rgba(24, 100, 255, 0.35);
+  /* opacity: 0.5; */
+  filter: blur(200px);
+  transform: rotate(-19.25deg);
+  z-index: -1;
 }
-
 
 .hero-pattern {
   background-image: url(./assets/images/bg-pattern-100.png);
@@ -44,7 +42,7 @@ z-index: -1;
   right: 0;
   left: 0;
   bottom: 0;
-  z-index:-1;
+  z-index: -1;
 }
 
 @font-face {
@@ -53,10 +51,14 @@ z-index: -1;
 }
 
 @font-face {
+  font-family: EinasemiBold;
+  src: url("./assets/fonts/eina/Eina01-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
   font-family: figtree;
   src: url("./assets/fonts/figtree/Figtree-Regular.ttf") format("truetype");
 }
-
 
 @keyframes move {
   0% {
@@ -64,7 +66,7 @@ z-index: -1;
   }
   100% {
     transform: translateX(-700%);
-    }
+  }
 }
 
 .animate-alternate {
