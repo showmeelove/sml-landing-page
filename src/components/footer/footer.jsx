@@ -27,7 +27,7 @@ const footer = () => {
                 faqs
               </a>
             </li>
-            <button className="h-[69px] w-[200px] font-figtree text-[18px] leading-[33pxx] text-center rounded-[40px] bg-[#001534]">
+            <button className="h-[69px] w-[200px] font-figtree text-[18px] leading-[33pxx] text-center rounded-[40px] bg-[#001534] hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
               get early access
             </button>
           </ul>
@@ -44,7 +44,9 @@ const footer = () => {
           </h1>
         </div>
         <div>
-          <img src={twitter} width={50} height={50} alt="" />
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src={twitter} width={50} height={50} alt="" />
+          </a>
         </div>
       </div>
     </footer>
