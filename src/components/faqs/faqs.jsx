@@ -19,7 +19,7 @@ const FAQ = () => {
   const textColor = Open ? "text-[#004DB3]" : "text-black";
 
   return (
-    <div className="w-[100%] bg-[#F5F5F5] mx-auto py-[3rem] relative">
+    <div className="w-[100%] bg-[#F5F5F5] mx-auto py-[3rem] relative" id="faqs"> 
       <img
         src={faqmemoji}
         alt="memoji"

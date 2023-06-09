@@ -3,21 +3,21 @@ const form = () => {
     <>
       <div className="mx-auto md:flex md:justify-center md:items-center">
         <form
-          className="mx-auto flex flex-col gap-[15px] jusfity-center items-center mt-[51px] md:mt-[68px] md:relative"
+          className="mx-auto flex flex-col gap-[15px] jusfity-center items-center mt-[51px] md:mt-[40px] md:relative"
           action="#"
         >
-          <div className="mx-auto  md:relative flex justify-center items-center md:flex md:items-center bg-[#01193C] border-[1px] border-[#61646B] rounded-[60px] ">
-            <span className="md:pl-[44px] pl-[30px] text-[#fefefe]">
+          <div className="mx-auto md:relative flex justify-center items-center md:flex md:items-center bg-[#01193C] border-[1px] border-[#61646B] md:max-w-[650px] rounded-[60px] ">
+            <span className="md:pl-[44px] pl-[30px] font-figtree text-[20px] leading-[33px] text-[#fefefe]">
               showmeelove.com/
             </span>
             <input
               type="mail"
               name="create page"
-              placeholder="vickyjay"
-              className="mx-auto py-[18px] w-[180px] bg-[#01193C] outline-none rounded-[60px] md:w-[534px] pl-[3px] md:py-[28px] text-[#A3A3A3]"
+              placeholder="yourname"
+              className="mx-auto py-[18px] w-[180px] font-figtree text-[20px] leading-[33px] bg-[#01193C] outline-none rounded-[60px] md:w-[534px] pl-[3px] md:py-[28px] text-[#A3A3A3]"
             />
           </div>
-          <button className="w-[360px] text-[16px] py-[18px] leading-[33px] rounded-[40px] md:absolute md:top-2 md:bottom-2 md:right-[7.8px] text-center outline-none md:px-[37.74px] font-figtree text-[#ffffff] md:text-[20px] md:w-[218px] font-medium md:leading-[25.65px] md:rounded-[35.942px] bg-gradient-to-r from-[#1864FF] to-[#42AAFF] md:bg-[#012C6B]">
+          <button className="w-[360px] text-[16px] py-[18px] leading-[33px] rounded-[40px] md:absolute md:top-2 md:bottom-2 md:right-[7.8px] text-center outline-none md:px-[37.74px] font-figtree text-[#ffffff] md:text-[20px] md:w-[218px] font-medium md:leading-[25.65px] md:rounded-[35.942px] bg-gradient-to-r from-[#1864FF] to-[#42AAFF] hover:from-[#1864FF] hover:to-[#1864FF]">
             create my page
           </button>
         </form>

@@ -23,7 +23,7 @@ const FAQCard = ({ active, onToggle, faq }) => {
       ) : (
         ""
       )}
-      <span className="absolute cursor-pointer text-[18px] font-figtree font-bold text-black  top-2 right-4">{active ? "-" : "+"}</span>
+      <span className="absolute cursor-pointer text-[18px] font-figtree font-bold text-black  top-7 right-4">{active ? "-" : "+"}</span>
     </div>
   );
 };
