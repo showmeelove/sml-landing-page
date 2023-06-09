@@ -45,6 +45,27 @@ body {
   z-index: -1;
 }
 
+
+body::-webkit-scrollbar {
+  @apply w-2 bg-transparent;
+}
+
+body::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-blue-500;
+}
+
+body::-webkit-scrollbar-track-piece {
+  @apply bg-transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply transition-all duration-500 rounded-full bg-red-200 hover:bg-red-100;
+}
+
 @font-face {
   font-family: Eina01-Bold;
   src: url("./assets/fonts/eina/Eina01-Bold.ttf") format("truetype");

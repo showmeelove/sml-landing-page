@@ -25,14 +25,14 @@ const FAQ = () => {
         alt="memoji"
         width={80}
         height={80}
-        className="sm:block absolute bottom-[50.5px] left-[100px] hidden"
+        className="lg:block md:hidden left-[12px] lg:absolute md:absolute lg:bottom-[50.5px] lg:left-[90px] hidden"
       />
       <img
         src={faqmemoj}
         alt="memoji"
         width={80}
         height={80}
-        className="sm:block hidden absolute bottom-[509px] right-[99.65px] "
+        className="lg:block md:hidden absolute lg:bottom-[509px] lg:right-[95.65px] hidden "
       />
       <div className="flex sm:hidden justify-between  w-[50%] mx-auto mb-2 ">
         <img
@@ -54,13 +54,14 @@ const FAQ = () => {
       <h2 className="text-center text-[26px] md:text-[48px] mt-[108px] md:leading-[55px] text-[#001534] font-Eina01Bold font-bold mb-[3.9rem]">
         frequently asked questions
       </h2>
-      <div className="flex flex-col items-center justify-center mx-auto">
+      <div className="flex flex-col flex-wrap items-center justify-center mx-auto">
         {faqs.map((faq, idx) => (
           <FAQCard
             faq={faq}
             key={idx}
             active={clicked === idx}
             onToggle={() => handleToggle(idx)}
+            className={`transition-all duration-300`}
           />
         ))}
       </div>

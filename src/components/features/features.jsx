@@ -1,17 +1,17 @@
 import FeaturesCard from "./featurecard";
 import FeaturesHeader from "./FeaturesHeader.jsx";
-import money from "../../assets/images/moneyIcon.png";
-import cart from "../../assets/images/Cart.png";
-import gem from "../../assets/images/gem.png";
-import volt from "../../assets/images/volt.png";
-import hit from "../../assets/images/hit.png";
-import gift from "../../assets/images/gift.png";
+import money from "../../assets/images/donate.png";
+import cart from "../../assets/images/sell.png";
+import gem from "../../assets/images/offer.png";
+import volt from "../../assets/images/take.png";
+import hit from "../../assets/images/crowdfund.png";
+import gift from "../../assets/images/fan.png";
 
 const Features = () => {
   return (
     <div className="w-[100%] bg-[#F5F5F5] mx-auto pb-[2rem]">
       <FeaturesHeader />
-      <div className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-[3rem] mt-[83px] mx-auto sm:w-[95%]">
+      <div className="flex mt-[100px] flex-wrap flex-col sm:flex-row items-center justify-center gap-[3rem] md:mt-[83px] mx-auto sm:w-[95%]">
         <FeaturesCard
           icon={money}
           text={
