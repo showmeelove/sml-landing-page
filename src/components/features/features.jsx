@@ -22,7 +22,7 @@ const Features = () => {
         <FeaturesCard
           icon={cart}
           text={
-            "sell things you don’t need a shopify or selar store for. Could be a 1-1 Zoom call, books, arts, etc."
+            "sell things you don’t need a shopify or selar store for. could be a 1-1 zoom call, books, arts, etc."
           }
           title={"sell your products"}
         />
