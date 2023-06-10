@@ -1,23 +1,23 @@
 import FeaturesCard from "./featurecard";
 import FeaturesHeader from "./FeaturesHeader.jsx";
-import money from "../../assets/images/donate.png";
-import cart from "../../assets/images/sell.png";
-import gem from "../../assets/images/offer.png";
-import volt from "../../assets/images/take.png";
-import hit from "../../assets/images/crowdfund.png";
-import gift from "../../assets/images/fan.png";
+import money from "../../assets/images/donate.svg";
+import cart from "../../assets/images/sell.svg";
+import gem from "../../assets/images/offer.svg";
+import volt from "../../assets/images/take.svg";
+import hit from "../../assets/images/crowdfund.svg";
+import gift from "../../assets/images/fan.svg";
 
 const Features = () => {
   return (
     <div className="w-[100%] bg-[#F5F5F5] mx-auto pb-[2rem]">
       <FeaturesHeader />
-      <div className="flex mt-[100px] flex-wrap flex-col sm:flex-row items-center justify-center gap-[3rem] md:mt-[83px] mx-auto sm:w-[95%]">
+      <div className="flex mt-[100px] flex-wrap flex-col sm:flex-row items-center justify-center gap-[20px] md:mt-[83px] mx-auto sm:w-[95%]">
         <FeaturesCard
           icon={money}
           text={
             "give your audience a fun and easy way to say thanks. they don’t need to create an account."
           }
-          title={"receive Donations"}
+          title={"receive donations"}
         />
         <FeaturesCard
           icon={cart}

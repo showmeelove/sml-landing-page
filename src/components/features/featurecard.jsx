@@ -2,7 +2,7 @@
 
 // eslint-disable-next-line react/prop-types
 const FeaturesCard = ({ title, text, icon }) => (
-  <div className="w-[353px] text-[#565656]  h-[357px] flex flex-col items-center justify-center border-[2px] border-[#EEEEEE] border-solid bg-[#fff] drop-shadow-l p-[1rem] rounded-[30px] transition duration-500 hover:scale-105">
+  <div className="lg:w-[353px] w-[90%] text-[#565656]  h-[357px] flex flex-col items-center justify-center border-[2px] border-[#EEEEEE] border-solid bg-[#fff] drop-shadow-l p-[1rem] rounded-[30px] transition duration-500 hover:scale-105">
     <div className="min-w-[50px]">
       <img src={icon} className="lg:w-[80px]" alt="feature images" />
     </div>
