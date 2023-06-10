@@ -1,6 +1,4 @@
-import twitter from "../../assets//images/twitter.png";
-
-const footer = () => {
+import twitter from "../../assets//images/twitter.png";const footer = () => {
   return (
     <footer className={`mx-auto  py-[40px] overflow-hidden bg-[#ffffff]`}>
       <div className="mx-[100px] flex flex-col items-center md:flex md:flex-row md:justify-between md:items-center">
@@ -27,12 +25,12 @@ const footer = () => {
                 faqs
               </a>
             </li>
-            <button className="mt-[25px] md:mt-0 w-[200px] font-figtree py-[25px] tetx-[17px] md:text-[18px] leading-[33pxx] text-center rounded-[40px] bg-[#001534] hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
-              get early access
+            <button className="mt-[25px] md:mt-0 w-[200px] font-figtree py-[20px] tetx-[17px] md:text-[18px] leading-[33pxx] text-center rounded-[40px] bg-[#001534] hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
+              create my page
             </button>
           </ul>
         </div>
-          {/* long line */}
+        {/* long line */}
       </div>
       <div className="border-solid border-[1px] mx-autp md:mx-[100px] mt-[35px] border-[#EEEEEE]"></div>
       <div className="mx-[100px] mt-[34px] flex flex-col gap-[20px] items-center  md:flex md:flex-row md:justify-between md:items-center">

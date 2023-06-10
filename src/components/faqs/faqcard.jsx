@@ -12,7 +12,7 @@ const FAQCard = ({ active, onToggle, faq }) => {
       onClick={onToggle} 
     >
       <h3
-        className={`text-[14px] md:text-[22px] leading-[33px] font-EinasemiBold font-[700] text-[#001534] pl-[30px] pt-[27px] py-[27px] `}
+        className={`text-[14px] md:text-[22px] leading-[33px] font-EinasemiBold font-[700] text-[#001534] pl-[30px] pt-[20px] py-[20px] `}
       >
         {faq.title}
       </h3>
@@ -23,7 +23,7 @@ const FAQCard = ({ active, onToggle, faq }) => {
       ) : (
         ""
       )}
-      <span className="absolute cursor-pointer text-[18px] font-figtree font-bold text-black  top-7 right-4">{active ? "-" : "+"}</span>
+      <span className="absolute cursor-pointer text-[18px] font-figtree font-bold text-black  top-5 right-4">{active ? "-" : "+"}</span>
     </div>
   );
 };

@@ -23,16 +23,16 @@ const FAQ = () => {
       <img
         src={faqmemoji}
         alt="memoji"
-        width={80}
+        width={105}
         height={80}
-        className="lg:block md:hidden left-[12px] lg:absolute md:absolute lg:bottom-[50.5px] lg:left-[90px] hidden"
+        className="lg:block md:hidden left-[12px] lg:absolute md:absolute lg:bottom-[50.5px] lg:left-[150px] hidden"
       />
       <img
         src={faqmemoj}
         alt="memoji"
-        width={80}
+        width={105}
         height={80}
-        className="lg:block md:hidden absolute lg:bottom-[509px] lg:right-[95.65px] hidden "
+        className="lg:block md:hidden absolute lg:bottom-[350px] lg:right-[150.65px] hidden "
       />
       <div className="flex sm:hidden justify-between  w-[50%] mx-auto mb-2 ">
         <img
@@ -51,7 +51,7 @@ const FAQ = () => {
         />
       </div>
 
-      <h2 className="text-center text-[26px] md:text-[48px] mt-[108px] md:leading-[55px] text-[#001534] font-Eina01Bold font-bold mb-[3.9rem]">
+      <h2 className="text-center text-[26px] md:text-[48px] mt-[8px] md:leading-[55px] text-[#001534] font-Eina01Bold font-bold mb-[3.9rem]">
         frequently asked questions
       </h2>
       <div className="flex flex-col flex-wrap items-center justify-center mx-auto">
@@ -61,7 +61,6 @@ const FAQ = () => {
             key={idx}
             active={clicked === idx}
             onToggle={() => handleToggle(idx)}
-            className={`transition-all duration-300`}
           />
         ))}
       </div>

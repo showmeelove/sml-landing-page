@@ -36,7 +36,7 @@ const Hero = () => {
               {navLinks.map((navLink) => (
                 <li
                   key={navLink.text}
-                  className={`font-figtree text-white text-[20px] leading-[33px] font-medium text-center transition-all duration-300 hover:text-[#1864FF]`}
+                  className={`font-figtree text-white text-[20px] leading-[33px] font-medium text-center transition-all duration-300 hover:border-b hover:border-[#EEEEEE] hover:text-[#1864FF]`}
                 >
                   <a href={navLink.href}>{navLink.text}</a>
                 </li>
