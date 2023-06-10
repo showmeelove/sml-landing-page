@@ -25,7 +25,7 @@ import twitter from "../../assets//images/twitter.png";const footer = () => {
                 faqs
               </a>
             </li>
-            <button className="mt-[25px] md:mt-0 w-[200px] font-figtree py-[20px] tetx-[17px] md:text-[18px] leading-[33pxx] text-center rounded-[40px] bg-[#001534] hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
+            <button className="mt-[25px] md:mt-0 w-[200px] font-figtree py-[20px] text-[17px] md:text-[18px] leading-[33px] text-center rounded-[40px] bg-[#001534] hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
               create my page
             </button>
           </ul>

@@ -139,7 +139,7 @@ const Hero = () => {
           </h1>
         </div>
         <div>
-          <p className="mx-auto max-w-[384px] mt-[29px] text-[16px] leading-[28px] md:max-w-[700px] text-center lg:mt-[40px] md:mt-[10px] md:text-[20px] md:leading-[33px] font-figtree font-normal">
+          <p className="mx-auto max-w-[384px] mt-[29px] text-[16px] leading-[28px] md:max-w-[700px] text-center lg:mt-[40px] md:mt-[10px] md:text-[18px] md:leading-[33px] font-figtree font-normal">
             got a devoted fanbase? <br /> you can quickly create and setup your
             page to let your fans{" "}
             <span className="bg-clip-text text-transparent font-semibold leading-[28px] bg-gradient-to-r from-[#1864FF] to-[#42AAFF]">
