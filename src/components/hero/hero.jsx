@@ -1,4 +1,5 @@
-import { useState } from "react";import Form from "../mail/form";
+import { useState } from "react";
+import Form from "../mail/form";
 import Memoji from "../mail/memojis";
 
 const Hero = () => {
@@ -46,6 +47,8 @@ const Hero = () => {
           <button className="hidden md:block px-[42px] py-[20px] font-figtree font-medium text-[18px] leading-[33pxx] text-center rounded-[40px] hover:from-[#1864FF] hover:to-[#1864FF] bg-gradient-to-r from-[#1864FF] to-[#42AAFF] transition-all duration-300">
             sign up
           </button>
+          {/* nav for mobile screen */}
+
           <div className="md:hidden">
             <div className="block md:hidden">
               <button
@@ -72,7 +75,6 @@ const Hero = () => {
                   }`}
                 />
               </button>
-              {/* nav for mobile screen */}
               <div
                 className={`absolute block w-full mt-[35px] bg-white md:hidden z-10 transition-all duration-300 ${
                   isOpened ? " translate-y-0" : "-translate-y-[150%]"
@@ -84,7 +86,7 @@ const Hero = () => {
                       <div
                         key={`${navLink.text}-mobile`}
                         className="group flex items-center gap-1"
-                        onClick={()=> setIsOpened(!isOpened)}
+                        onClick={() => setIsOpened(!isOpened)}
                       >
                         <div
                           className={`group-hover:h-9 bg-[#010E21] w-1 rounded-full h-1 transition-all duration-300`}
@@ -93,7 +95,7 @@ const Hero = () => {
                           <a
                             href={navLink.href}
                             className="text-[#001534] font-semibold text-[18px] leading-[33px] font-figtree hover:bg-gradient-to-r from-[#1864FF] to-[#42AAFF] p-3 rounded-lg transition-all duration-300 hover:text-white"
-                          > 
+                          >
                             {navLink.text}
                           </a>
                         </li>

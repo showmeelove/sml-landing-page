@@ -1,11 +1,7 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
 const FAQCard = ({ active, onToggle, faq }) => {
-  // const handleClick = (id) => {
-  // 	console.log(id == idx);
-  // 	if (id == idx) setopen(!Open);
-  // };
-  // const textColor = active ? "text-[#004DB3]" : "text-black";
+
   return (
     <div
       className="relative border-[#EEEEEE] border-[2px] border-solid mb-3 md:mb-[23px] w-[320px]  md:w-[683px] rounded-[13px] bg-[#ffffff]"

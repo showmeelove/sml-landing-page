@@ -13,6 +13,7 @@ const form = () => {
             <input
               type="mail"
               name="create page"
+              autoComplete="off"
               placeholder="yourname"
               className="mx-auto py-[18px] w-[180px] font-figtree text-[20px] leading-[33px] bg-[#01193C] outline-none rounded-[60px] md:w-[534px] pl-[3px] md:py-[24px] text-[#A3A3A3]"
             />
