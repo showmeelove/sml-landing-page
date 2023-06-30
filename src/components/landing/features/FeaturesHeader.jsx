@@ -1,5 +1,5 @@
-import icon2 from "../../assets/images/featureIcon1.png";
-import icon3 from "../../assets/images/featureIcon2.png";
+import icon2 from "../../../assets/images/featureIcon1.png";
+import icon3 from "../../../assets/images/featureIcon2.png";
 
 const FeaturesHeader = () => {
   return (

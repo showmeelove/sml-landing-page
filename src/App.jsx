@@ -1,15 +1,14 @@
-import Hero from "./components/hero/hero";
-import Features from "./components/features/features";
-import Faqs from "./components/faqs/faqs";
-import Footer from "./components/footer/footer";
+import { Route, Routes } from "react-router-dom";
+import Landing from "./components/landing/Landing";
+import Error from "./Error";
 
 const App = () => {
   return (
     <>
-      <Hero />
-      <Features />
-      <Faqs />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </>
   );
 };

@@ -1,4 +1,7 @@
-import twitter from "../../assets//images/twitter.png";const footer = () => {
+import twitter from "../../../assets/images/twitter.png";
+
+
+const footer = () => {
   return (
     <footer className={`mx-auto  py-[40px] overflow-hidden bg-[#ffffff]`}>
       <div className="mx-[100px] flex flex-col items-center md:flex md:flex-row md:justify-between md:items-center">

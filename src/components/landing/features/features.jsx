@@ -1,11 +1,11 @@
 import FeaturesCard from "./featurecard";
 import FeaturesHeader from "./FeaturesHeader.jsx";
-import money from "../../assets/images/donate.svg";
-import cart from "../../assets/images/sell.svg";
-import gem from "../../assets/images/offer.svg";
-import volt from "../../assets/images/take.svg";
-import hit from "../../assets/images/crowdfund.svg";
-import gift from "../../assets/images/fan.svg";
+import money from "../../../assets/images/donate.svg";
+import cart from "../../../assets/images/sell.svg";
+import gem from "../../../assets/images/offer.svg";
+import volt from "../../../assets/images/take.svg";
+import hit from "../../../assets/images/crowdfund.svg";
+import gift from "../../../assets/images/fan.svg";
 
 const Features = () => {
   return (

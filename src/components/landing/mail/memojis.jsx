@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unknown-property */
-import icon1 from "../../assets/images/heroIcon11.png";
-import icon2 from "../../assets/images/heroIcon22.png";
-import icon3 from "../../assets/images/heroIcon3.png";
-import icon4 from "../../assets/images/heroIcon4.png";
-import icon5 from "../../assets/images/heroIcon5.png";
-import icon6 from "../../assets/images/heroIcon6.png";
-import icon7 from "../../assets/images/heroIcon7.png";
+import icon1 from "../../../assets/images/heroIcon11.png";
+import icon2 from "../../../assets/images/heroIcon22.png";
+import icon3 from "../../../assets/images/heroIcon3.png";
+import icon4 from "../../../assets/images/heroIcon4.png";
+import icon5 from "../../../assets/images/heroIcon5.png";
+import icon6 from "../../../assets/images/heroIcon6.png";
+import icon7 from "../../../assets/images/heroIcon7.png";
 // import slidemd from "../../assets/images/slide-md.png";
 // import slidelg from "../../assets/images/slide-desk.png";
 

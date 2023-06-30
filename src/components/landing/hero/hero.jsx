@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Form from "../mail/form";
 import Memoji from "../mail/memojis";
 
@@ -15,7 +16,7 @@ const Hero = () => {
     },
     {
       text: "login",
-      href: "#login",
+      href: "/login",
     },
   ];
 
@@ -26,7 +27,7 @@ const Hero = () => {
       <div className="rounded-b-[60px] bg-[#010E2] py-[10px] ">
         <div className="mx-[19px] mt-[30px] md:mt-[10.5px] md:mx-[50px] flex items-center justify-between md:flex md:justify-between md:items-center">
           <a
-            href="#"
+            href="/"
             className="text-[22px] leading-[25.78px] text-[#FEFEFE] font-Eina01Bold md:text-[26px] md:leading-[30.47px]"
           >
             showmeelove.
@@ -103,14 +104,14 @@ const Hero = () => {
                     ))}
                   </div>
                 </ul>
-                <a className="mx-auto flex justify-center" href="#get">
-                  <button
-                    type="button"
+                <div className="mx-auto flex justify-center">
+                  <NavLink
+                  to="/signin"
                     className={`text-[18px] mb-[34px] hover:bg-[#1864FF] text-clip bg-gradient-to-r from-[#1864FF] to-[#42AAFF] text-white rounded-[24px] leading-[21.94px] font-semibold font-mon text-center px-[42px] py-[18px]`}
                   >
                     sign up
-                  </button>
-                </a>
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>

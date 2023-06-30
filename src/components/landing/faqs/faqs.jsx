@@ -1,9 +1,9 @@
 import { useState } from "react";
 import FAQCard from "./faqcard";
-import { faqs } from "../../utils/faqs";
+import { faqs } from "../../../utils/faqs";
 // import Heading from "../Heading/Heading";
-import faqmemoj from "../../assets/images/faqmemeoji2.png";
-import faqmemoji from "../../assets/images/faqmemoji2.png";
+import faqmemoj from "../../../assets/images/faqmemeoji2.png";
+import faqmemoji from "../../../assets/images/faqmemoji2.png";
 
 const FAQ = () => {
   const [Open, setopen] = useState(false);
