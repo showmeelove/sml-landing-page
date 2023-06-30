@@ -10,7 +10,7 @@ const Error = () => {
         <img src={memo} alt="face icon" className="w-20" />
 
         <h1 className="text-[#FEFEFE] font-Eina01Bold">ERROR 404! Page not found. You are supoosed not to be here chief!</h1>
-        <a className="text-[#FEFEFE] font-figtree p-2 outline-dashed outline-[#1864FF]" href="/">Go to Home</a>
+        <a className="text-[#FEFEFE] font-figtree p-2 outline-dashed outline-[#1864FF]" href="">Go to Home</a>
       </div>
     </div>
   );
