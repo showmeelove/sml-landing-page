@@ -1,8 +1,7 @@
 import logo from "../../assets/images/sml.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { motion } from "framer-motion"
-
+import { motion } from "framer-motion";
 
 const SignIn = () => {
   const [isLogin, setIsLogin] = useState(false);
@@ -15,15 +14,17 @@ const SignIn = () => {
         </Link>
 
         <div className="rounded-[1000px] gap-[47px] flex border-[#eee] md:p-1 border-solid border-[2px] ">
-          <button
+          <motion.button
+            animate={{ x: isLogin ? 0 : 7 }}
             onClick={() => setIsLogin(false)}
             className={`font-figtree font-medium text-[#888] ${
               isLogin || "bg-[#216AFF] text-[white]"
             } outline-none rounded-[35.9px]  md:px-[38px] md:py-[21px] md:text-[16px] md:leading-[30px]`}
           >
             create account
-          </button>
-          <motion.button 
+          </motion.button>
+          <motion.button
+            animate={{ x: isLogin ? 0 : -10 }}
             onClick={() => setIsLogin(true)}
             className={`font-figtree font-medium text-[#888] ${
               !isLogin || "bg-[#216AFF] text-[white]"
@@ -37,7 +38,9 @@ const SignIn = () => {
       {isLogin ? (
         <div className="mt-[100px] text-black mx-auto text-center">login</div>
       ) : (
-        <div className="mt-[100px] text-black mx-auto text-center">create account</div>
+        <div className="mt-[100px] text-black mx-auto text-center">
+          create account
+        </div>
       )}
     </div>
   );
