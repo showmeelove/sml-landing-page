@@ -45,9 +45,9 @@ const Hero = () => {
               ))}
             </ul>
           </nav>
-          <button className="hidden md:block px-[42px] py-[20px] font-figtree font-medium text-[18px] leading-[33pxx] text-center rounded-[40px] hover:from-[#1864FF] hover:to-[#1864FF] bg-gradient-to-r from-[#1864FF] to-[#42AAFF] transition-all duration-300">
+          <NavLink to="/signup" className="hidden md:block px-[42px] py-[20px] font-figtree font-medium text-[18px] leading-[33pxx] text-center rounded-[40px] hover:from-[#1864FF] hover:to-[#1864FF] bg-gradient-to-r from-[#1864FF] to-[#42AAFF] transition-all duration-300">
             sign up
-          </button>
+          </NavLink>
           {/* nav for mobile screen */}
 
           <div className="md:hidden">
@@ -105,11 +105,12 @@ const Hero = () => {
                   </div>
                 </ul>
                 <div className="mx-auto flex justify-center">
-                  <NavLink
-                  to="/signin"
-                    className={`text-[18px] mb-[34px] hover:bg-[#1864FF] text-clip bg-gradient-to-r from-[#1864FF] to-[#42AAFF] text-white rounded-[24px] leading-[21.94px] font-semibold font-mon text-center px-[42px] py-[18px]`}
-                  >
-                    sign up
+                  <NavLink to="/signup">
+                    <button
+                      className={`text-[18px] mb-[34px] hover:bg-[#1864FF] text-clip bg-gradient-to-r from-[#1864FF] to-[#42AAFF] text-white rounded-[24px] leading-[21.94px] font-semibold font-mon text-center px-[42px] py-[18px]`}
+                    >
+                      sign up
+                    </button>
                   </NavLink>
                 </div>
               </div>

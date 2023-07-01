@@ -95,3 +95,6 @@ body::-webkit-scrollbar-thumb {
   animation: move infinite alternate;
   animation-duration: 15s;
 }
+
+
+/* css animation for the login and sign up button */
