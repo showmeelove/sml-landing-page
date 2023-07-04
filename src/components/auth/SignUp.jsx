@@ -32,7 +32,7 @@ const SignIn = () => {
             </div>
           </fieldset>
           <fieldset className='flex items-center gap-x-5'>
-            <div className='rounded-[20px] flex-1 border-[1px] border-[#EEEEEE] px-5 flex gap-x-5 h-[71px] items-center'>
+            <div className='rounded-[20px] flex-1 border-[1px] border-[#EEEEEE] px-5 flex gap-x-2 h-[71px] items-center'>
               <figure className='h-fit'>
                 <img src={password_icon} alt="Mail Icon" />
               </figure>
