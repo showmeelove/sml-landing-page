@@ -18,7 +18,7 @@ const SignIn = () => {
 
   return (
     <Auth>
-      <section className="py-[100px] mx-auto w-full max-w-[500px] font-figtree">
+      <section className="py-[100px] mx-auto w-full max-w-[500px] font-figtree px-4">
         <header>
           <h1 className='text-[#001534] text-[#001534] text-[32px] font-bold text-center'>create account</h1>
         </header>
