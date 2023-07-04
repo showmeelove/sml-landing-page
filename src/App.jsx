@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./components/landing/Landing";
 import SignUp from "./components/auth/SignUp";
+import Login from "./components/auth/Login";
 import Error from "./Error";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     const routeTitleMappings = {
       "/": "showmeelove || home",
       "/signup": "showmeelove || create account",
+      "/login": "showmeelove || login",
       "*": "showmeelove || error",
       // Add more routes and titles as needed
     };
@@ -39,6 +41,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
