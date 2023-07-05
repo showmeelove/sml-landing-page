@@ -98,3 +98,15 @@ body::-webkit-scrollbar-thumb {
 
 
 /* css animation for the login and sign up button */
+
+.sm-auth-placeholder{
+  transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transform-origin: 0 100%;
+}
+.sm-auth-placeholder.active{
+  transform: translateY(-15px) scale(0.8);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -webkit-transform: translateY(-15px) scale(0.8);
+}
