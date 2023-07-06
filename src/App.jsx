@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./components/landing/Landing";
 import SignUp from "./components/auth/SignUp";
 import Login from "./components/auth/Login";
+import ForgotPassword from "./components/auth/ForgotPassword";
 import Error from "./Error";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       "/": "showmeelove || home",
       "/signup": "showmeelove || create account",
       "/login": "showmeelove || login",
+      "/forgot-password": "showmeelove || forgot password",
       "*": "showmeelove || error",
       // Add more routes and titles as needed
     };
@@ -42,6 +44,7 @@ const App = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>

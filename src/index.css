@@ -110,3 +110,24 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform-origin: 0 0;
   -webkit-transform: translateY(-15px) scale(0.8);
 }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.sm-otp-input{
+  border:2px solid #eee;
+  outline:none;
+  text-align:center;
+  color:#001534;
+  font-family:"figtree";
+  font-weight:700;
+}
+
+.sm-otp-input:focus{
+  border-color:#1864FF;
+}
