@@ -48,7 +48,7 @@ const SignIn = () => {
             </button>
           </fieldset>
           <fieldset className="sm:hidden">
-            <Button>login</Button>
+            <Button>continue</Button>
           </fieldset>
           <fieldset className="pl-5">
             <Link to='/forgot-password' className="text-[#001534] font-bold">forgot password?</Link>

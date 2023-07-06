@@ -53,7 +53,7 @@ const ForgotPasswordScreen = ({authStatusHandler}) => {
   return (
     <section className="py-[100px] mx-auto w-full max-w-[520px] font-figtree px-4">
       <header className="pb-8">
-        <h1 className='text-[#001534] text-[#001534] text-[32px] font-bold text-center'>forgot password</h1>
+        <h1 className='text-[#001534] text-[32px] font-bold text-center'>forgot password</h1>
         <p className='text-[#8F9FB7] pt-2 text-center'>confirm the email address to be correct. we will email you an OTP which you will enter in the next page. it will expire in 5 minutes.</p>
       </header>
       <form onSubmit={submit} className='pt-[50px] flex flex-col gap-y-6'>
@@ -162,7 +162,7 @@ const EnterOTPScreen = ({ authStatusHandler }) => {
   return (
     <section className="py-[100px] mx-auto w-full max-w-max font-figtree px-4">
       <header className="pb-8">
-        <h1 className='text-[#001534] text-[#001534] text-[32px] font-bold text-center'>enter OTP</h1>
+        <h1 className='text-[#001534] text-[32px] font-bold text-center'>enter OTP</h1>
         <p className='text-[#8F9FB7] pt-2 text-center'>We just sent an OTP to demo***********.com. Didn&rsquo;t see it?</p>
         <p className='text-[#8F9FB7] pt-2 text-center'>Check your spam folder.</p>
       </header>
@@ -204,7 +204,7 @@ const ChangePasswordScreen = ({authStatusHandler}) => {
   return (
     <section className="py-[100px] mx-auto w-full max-w-[520px] font-figtree px-4">
       <header className="pb-8">
-        <h1 className='text-[#001534] text-[#001534] text-[32px] font-bold text-center'>choose new password</h1>
+        <h1 className='text-[#001534] text-[32px] font-bold text-center'>choose new password</h1>
       </header>
       <form onSubmit={submit} className='pt-10 flex flex-col gap-y-6'>
         <fieldset className='flex items-center'>
